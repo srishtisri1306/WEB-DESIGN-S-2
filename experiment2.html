@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+<link rel="stylesheet" href="exp22.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Management System</h1>
+
+    <div class="section">
+        <h3>Add Employee</h3>
+
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="empId" placeholder="Employee ID">
+        <input type="number" id="salary" placeholder="Salary">
+
+        <select id="dept">
+            <option value="">Department</option>
+            <option value="IT">IT</option>
+            <option value="CS">CS</option>
+            <option value="Finance">Finance</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Marketing">Marketing</option>
+        </select>
+
+        <br>
+        <button onclick="addEmployee()">Add Employee</button>
+    </div>
+
+    <div class="section">
+        <button onclick="displayEmployees()">Display Employees</button>
+        <button onclick="filterSalary()">High Salary</button>
+        <button onclick="totalSalary()">Total Salary</button>
+        <button onclick="averageSalary()">Average Salary</button>
+        <button onclick="countDepartments()">Department Count</button>
+    </div>
+
+    <div id="output">Results will appear here</div>
+    <div id="total">Summary will appear here</div>
+
+</div>
+
+<script src="exp2.js"></script>
+
+</body>
+</html>
