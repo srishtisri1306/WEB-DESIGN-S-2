@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    background:#f69999;
+}
+
+.container{
+    width:800px;
+    margin:auto;
+    background:rgb(129, 230, 194);
+    padding:20px;
+    border:1px solid #ccc;
+}
+
+h1{
+    text-align:center;
+}
+
+input, select{
+    padding:8px;
+    margin:5px;
+    width:180px;
+}
+
+button{
+    padding:8px 12px;
+    margin:5px;
+    cursor:pointer;
+     background-color: antiquewhite;
+}
+
+.section{
+    margin-top:20px;
+}
+
+#output, #total{
+    border:1px solid #ccc;
+    padding:15px;
+    margin-top:15px;
+}
