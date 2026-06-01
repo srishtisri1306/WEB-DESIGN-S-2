@@ -1,41 +1,43 @@
 body{ 
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-  background-color:#92c5d1; 
+  font-family: Arial; 
+  background:#e492d2; 
+  text-align:center; 
 } 
 .container{ 
-  background:rgb(184, 107, 156); 
-  width:350px; 
-  margin:100px auto; 
-  padding:30px; 
-  text-align:center; 
-  border-radius:25px; 
-  border-color: bisque;
+  width:400px; 
+  margin:auto; 
+  padding:20px; 
+  background:rgb(171, 237, 145); 
+  border-radius:8px; 
+  box-shadow:0 0 10px rgb(20, 15, 15); 
+} 
+input{ 
+  width:85%; 
+  padding:10px; 
+  margin:10px 0; 
+} 
+button{ 
+  padding:15px 20px; 
+  background:rgb(108, 174, 198); 
+  color: blanchedalmond; 
   border-style: groove;
-  box-shadow:0px 0px 10px gray; 
-} 
-.counter{ 
-  font-size:40px; 
-  margin:20px 0; 
-} 
-.buttons button{ 
-  margin:10px; 
-  padding:10px 20px; 
-  font-size:17px; 
-  border:none; 
-  background-color:#1a7561; 
-  color:rgb(216, 220, 154); 
-  border-radius:5px; 
+  border-radius: 30px; 
+  border-color: bisque;
   cursor:pointer; 
 } 
-.buttons button:hover{ 
-  background-color:#d2622e; 
+button:hover{ 
+  background:rgb(230, 118, 90); 
 } 
-h1 { 
-    margin-bottom: 20px; 
-    color: rgb(239, 240, 192);
-    
-  } 
-h2 { 
-    font-size: 40px; 
-    margin-bottom: 20px; 
-  } 
+.error{ 
+  color:red; 
+  font-size:14px; 
+} 
+.success{ 
+  color:rgb(234, 92, 60); 
+  font-weight:bold; 
+} 
+.apiData{ 
+  margin-top:30px; 
+  background:#d4d78e; 
+  padding:20px; 
+}
