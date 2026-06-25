@@ -1,14 +1,26 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <title>React Student Component</title> 
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script> 
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
-    <link rel="stylesheet" href="./src/index.css"> 
-</head> 
-<body> 
-<div id="root"></div> 
-    <script type="module" src="/src/main.jsx"></script> 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Temperature Converter</h2>
+
+        <label for="celsius">Enter Temperature in Celsius:</label>
+        <input type="number" id="celsius" placeholder="Enter Celsius">
+
+        <button onclick="convertTemperature()">
+            Convert to Fahrenheit
+        </button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
